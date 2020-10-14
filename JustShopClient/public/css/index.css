@@ -1,0 +1,743 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Write for phone */
+
+@media(max-width: 375px) {
+    p.text-uppercase.font-weight-light.Name {
+        margin-top: 11px;
+        margin-right: 10px;
+    }
+    a.mauchu {
+        color: black;
+        font-weight: 600;
+    }
+    li.Main1 {
+        border-bottom: 1px solid;
+        height: 42px;
+    }
+    li.nav-item.dropdown:hover .drop {
+        display: block!important;
+    }
+    .drop {
+        top: 37px;
+        list-style: none;
+        position: absolute;
+        z-index: 1;
+        background: white;
+        width: 343px;
+        display: none;
+        left: 0;
+    }
+    a.nav-link.ali {
+        color: black;
+    }
+    .MenuBtn {
+        width: 350px;
+        height: 41px;
+        background-color: #e75a39!important;
+    }
+    .Logo {
+        margin-left: 75px;
+    }
+    .drop {
+        border: none!important;
+    }
+    .Main {
+        color: black!important;
+        border-bottom: 1px solid gray;
+    }
+    .Slide img {
+        height: 128px!important;
+        width: 100%!important;
+    }
+    .Menu {
+        position: fixed!important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .Down {
+        margin-top: 137px;
+    }
+    .new {
+        position: absolute;
+        z-index: 1;
+    }
+    .title {
+        margin-bottom: 22px;
+        color: #e75a39;
+    }
+    .tin {
+        text-align: center;
+    }
+    .info {
+        width: 292px;
+        height: 365px;
+        background: white;
+    }
+    .info img {
+        border: 2px solid #80808080;
+        margin: 10px 10px;
+    }
+    .txt {
+        font-size: 12px;
+        width: 250px;
+        height: 70px;
+        margin-left: 20px;
+        color: gray;
+        overflow: hidden;
+    }
+    .more {
+        margin-left: 37%;
+        margin-top: 29px!important;
+        border: none;
+        width: 90px;
+        height: 33px;
+        background-image: url(../img/background.gif);
+        border-radius: 7px;
+        color: white;
+        font-size: 12px;
+    }
+    .big {
+        position: relative;
+        width: 305px;
+        height: 450px;
+    }
+    .l1 {
+        position: absolute;
+        z-index: 0;
+        top: 49px;
+        left: -16px;
+    }
+    .l2 {
+        position: absolute;
+        z-index: 0;
+        bottom: 7px;
+        right: 3px;
+    }
+    .right {
+        margin-left: 27px;
+    }
+    .top {
+        display: block;
+    }
+    .item {
+        width: 223px;
+        height: 320px;
+        margin-bottom: 33px;
+        transition: 0.3s;
+        margin-left: 60px;
+    }
+    .item:hover {
+        transform: translateY(-15px);
+    }
+    .information {
+        width: 200px;
+        height: 50px;
+        margin: 15px 8px;
+        overflow: hidden;
+        font-size: 12px;
+        margin-left: 0px;
+        margin-top: -18px;
+    }
+    .picture {
+        margin: 7px 9px;
+        width: 204px!important;
+        height: 136px;
+        ;
+    }
+    .bd {
+        margin-left: -11px;
+    }
+    .tt {
+        margin-top: -15px;
+    }
+    .price {
+        margin-top: -7px;
+        font-weight: bold;
+    }
+    .add {
+        width: 92px;
+        height: 32px;
+        background-image: url(../img/background.gif);
+        font-size: 12px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-left: 64px;
+        margin-bottom: 14px;
+    }
+    .Chinh {
+        margin-bottom: 200px;
+    }
+    .footer {
+        background-color: #e75a39;
+        height: 1300px;
+        width: 100%;
+        position: relative;
+    }
+    .SHIP {
+        position: absolute;
+        z-index: 1;
+        top: -184px;
+        left: 14px;
+        background-color: white;
+        width: 347px;
+        height: 419px;
+        border-radius: 5px;
+    }
+    .phanphoi {
+        width: 317px;
+        height: 191px;
+    }
+    .anh {
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        border: 3px solid #80808066;
+        margin: 15px 15px;
+    }
+    .tieude {
+        margin-top: 16px!important;
+    }
+    .thongtin {
+        margin-top: -18px;
+        font-size: 12px;
+    }
+    .diachi {
+        width: 245px;
+        height: 162px;
+        border-bottom: 1px solid white;
+    }
+    .Thongbao {
+        width: 199px;
+        height: 101px;
+        font-size: 13px;
+        margin-top: 22px;
+    }
+    .them {
+        color: white!important;
+        width: 123px;
+        height: 34px;
+    }
+    .Ft {
+        margin-top: 30px;
+        color: white;
+    }
+    .backTop {
+        width: 45px;
+        height: 45px;
+        background-color: black;
+        position: fixed;
+        right: 12px;
+        bottom: 224px;
+        border-radius: 50%;
+        z-index: 1031;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+    }
+    .backTop img {
+        margin: 16px 16px;
+    }
+    p.text-uppercase.font-weight-bold.Name {
+        margin-top: 12px;
+        /* text-align: center; */
+    }
+    img.hms {
+        width: 10px;
+        height: 25px;
+        margin-top: 11px;
+    }
+    img.hm {
+        margin-top: 9px;
+        width: 26px;
+        height: 25px;
+    }
+    .TieuDe.bg-white.mt-3.d-flex {
+        height: 26px;
+    }
+    .row.cactren {
+        margin-top: 30px;
+    }
+    .Body1.Body3.body4 {
+        width: 692px;
+    }
+    .col-sm-10.Chinh.sanpham {
+        width: 400px;
+    }
+    .Body3 {
+        height: 863px;
+    }
+    ul.nav {
+        margin-left: 23px;
+    }
+    h4.font-weight-bold {
+        text-align: center;
+    }
+    .col-sm-3.bodyLeft {
+        margin-bottom: 30px;
+    }
+    .container.boody {
+        margin-top: 140px;
+    }
+    p.text-uppercase.font-weight-bold.Name {}
+    img.hms {
+        margin-right: 20px;
+    }
+    img.hm {
+        margin-right: 9px;
+    }
+    .TieuDe.bg-white.mt-3.d-flex {
+        height: 44px;
+        text-align: center;
+        margin-top: 151px!important;
+    }
+    .row.cactren {
+        margin-top: 30px;
+    }
+    .Body1.Body3.body4 {
+        width: 692px;
+    }
+    .col-sm-10.Chinh.sanpham {
+        width: 400px;
+    }
+    .Body3 {
+        height: 863px;
+    }
+}
+
+.Main:hover {
+    background-color: #f7f7f7;
+}
+
+.Body1 {
+    background-image: url("../img/body.png");
+}
+
+.Body2 {
+    background-image: url("../img/body2.png");
+}
+
+.TxT {
+    font-size: 10px;
+}
+
+.Box {
+    width: 287px;
+    height: 345px;
+}
+
+.them:hover {
+    background-color: #f7f7f7;
+    color: #e75a39;
+}
+
+.ACTIVE {
+    opacity: 1!important;
+    visibility: visible!important;
+    transition: 0.5s;
+}
+
+.ND:hover {
+    text-decoration: none;
+}
+
+.ND,
+.ND1 {
+    color: black!important;
+}
+
+.ND1:hover {
+    text-decoration: none;
+}
+
+
+/* Write for Laptop */
+
+@media(min-width: 1280px) {
+    .Logo {
+        margin-left: 160px;
+    }
+    .Main {
+        color: #e75a39!important;
+        text-transform: uppercase;
+        font-size: 14px;
+        width: 109px;
+        text-align: center;
+        font-weight: 600;
+    }
+    a.nav-link.dropdown-toggle.Main:hover .drop {
+        display: block;
+    }
+    .Menu {
+        box-shadow: 8px 3px 9px 1px grey;
+    }
+    .Left {
+        margin-left: 174px;
+    }
+    .Slide img {
+        height: 400px!important;
+        width: 100%!important;
+    }
+    .new {
+        position: absolute;
+        z-index: 1;
+    }
+    .title {
+        margin-bottom: 22px;
+        color: #e75a39;
+    }
+    .info {
+        width: 292px;
+        height: 365px;
+        background: white;
+    }
+    .info img {
+        border: 2px solid #80808080;
+        margin: 10px 10px;
+    }
+    .txt {
+        font-size: 12px;
+        width: 250px;
+        height: 70px;
+        margin-left: 20px;
+        color: gray;
+        overflow: hidden;
+    }
+    .more {
+        margin-left: 37%;
+        margin-top: 29px!important;
+        border: none;
+        width: 90px;
+        height: 33px;
+        background-image: url(../img/background.gif);
+        border-radius: 7px;
+        color: white;
+        font-size: 12px;
+    }
+    .big {
+        position: relative;
+        width: 305px;
+        height: 479px;
+    }
+    .l1 {
+        position: absolute;
+        z-index: 0;
+        top: 49px;
+        left: -16px;
+    }
+    .l2 {
+        position: absolute;
+        z-index: 0;
+        bottom: 36px;
+        right: 3px;
+    }
+    .right {
+        margin-right: 40px;
+    }
+    .right:nth-child(1) {
+        margin-left: 78px;
+    }
+    .top {
+        margin-top: 48px;
+        padding: 16px;
+        margin-bottom: 48px;
+    }
+    .text {
+        font-size: 13px;
+    }
+    .FL {
+        display: flex;
+    }
+    .item {
+        width: 223px;
+        height: 320px;
+        margin-bottom: 33px;
+        margin-right: 22px;
+        transition: 0.3s;
+    }
+    .item:hover {
+        transform: translateY(-15px);
+    }
+    .information {
+        width: 200px;
+        height: 50px;
+        margin: 15px 8px;
+        overflow: hidden;
+        font-size: 12px;
+        color: black;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .picture {
+        margin: 7px 9px;
+        width: 204px!important;
+        height: 136px;
+        ;
+    }
+    .bd {
+        margin-left: -11px;
+    }
+    .tt {
+        margin-top: -15px;
+    }
+    .price {
+        margin-top: -12px;
+        font-weight: bold;
+        color: black;
+    }
+    .add {
+        width: 92px;
+        height: 32px;
+        background-image: url(../img/background.gif);
+        font-size: 12px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-left: 64px;
+        margin-bottom: 8px;
+    }
+    .Chinh {
+        overflow: hidden;
+        margin-bottom: 66px;
+        height: 712px;
+    }
+    .footer {
+        background-color: #e75a39;
+        height: 282px;
+        width: 100%;
+    }
+    .SHIP {
+        background-color: white;
+        width: 975px;
+        height: 130px;
+        border-radius: 5px;
+        display: flex;
+        margin-left: 75px;
+        margin-top: -49px;
+    }
+    .phanphoi {
+        width: 490px;
+        background: white;
+        height: 130px;
+    }
+    .anh {
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        border: 3px solid #80808066;
+        margin: 15px 15px;
+    }
+    .tieude {
+        margin-top: 16px!important;
+    }
+    .thongtin {
+        margin-top: -18px;
+        font-size: 12px;
+    }
+    .Ft {
+        padding-top: 85px;
+        color: white;
+    }
+    .diachi {
+        width: 245px;
+        height: 162px;
+        border-right: 1px solid white;
+    }
+    .Thongbao {
+        width: 199px;
+        height: 101px;
+        font-size: 13px;
+        margin-top: 22px;
+    }
+    .them {
+        color: white!important;
+        width: 123px;
+        height: 34px;
+    }
+    .backTop {
+        width: 45px;
+        height: 45px;
+        background-color: black;
+        position: fixed;
+        right: 55px;
+        bottom: 90px;
+        border-radius: 50%;
+        z-index: 1031;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+    }
+    .backTop img {
+        margin: 16px 16px;
+    }
+    .TieuDe {
+        width: 1010px;
+        margin-left: 65px;
+        height: 49px;
+        border: 1px solid #80808045;
+    }
+    .hm {
+        width: 17px;
+        height: 17px;
+        margin: 15px 15px;
+    }
+    .hms {
+        width: 9px;
+        height: 16px;
+        margin: 16px 15px;
+    }
+    .Name {
+        margin-top: 12px;
+    }
+    .bodyLeft {
+        margin-left: 91px;
+        margin-top: 20px;
+    }
+    .DMli {
+        width: 219px;
+        height: 43px;
+    }
+    .ali {
+        color: black!important;
+    }
+    .DMli:hover {
+        background-color: #8a74742e;
+    }
+    .boody {
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .Main1 {
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        height: 35px;
+        padding-left: 10px;
+        padding-top: 3px;
+    }
+    .nd {
+        width: 693px;
+        height: 325px;
+    }
+    .tt1 {
+        margin-left: -20px;
+        width: 693px;
+        height: 325px;
+        overflow: hidden;
+    }
+    .Info {
+        width: 100%;
+        height: 7px;
+        font-size: 14px;
+        color: gray;
+        margin-left: 5px;
+    }
+    .lich {
+        width: 100%;
+        height: 21px;
+    }
+    .bodyRight {
+        height: auto;
+    }
+    .TinTuc {
+        height: auto;
+    }
+    .row.cactren {
+        margin-top: 30px;
+    }
+    .Body1.Body3 {
+        height: 861px;
+    }
+    li.nav-item.dropdown:hover .drop {
+        display: block!important;
+    }
+    a.mauchu {
+        color: #e75a39!important;
+    }
+    .Main1:hover {
+        background-color: #f7f7f7;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #e75a39;
+    }
+    li.nav-item.dropdown {
+        position: relative;
+    }
+    li.nav-item.dropdown:hover .drop {
+        display: block!important;
+    }
+    a.mauchu {
+        color: #e75a39!important;
+    }
+    .Main1:hover {
+        background-color: #f7f7f7;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #e75a39;
+    }
+    li.nav-item.dropdown {
+        position: relative;
+    }
+    .drop {
+        top: 37px;
+        list-style: none;
+        position: absolute;
+        z-index: 1;
+        background: white;
+        width: 136px;
+        display: none;
+        left: 0;
+    }
+    h4.font-weight-bold.ttd {
+        margin-bottom: 28px;
+        color: #e75a39;
+    }
+    .cttins {
+        border-bottom: 1px solid;
+        margin-bottom: 33px;
+        padding-bottom: 29px;
+    }
+    .cttin.ml-3.mt-2 {
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 39px;
+    }
+    button.btn.btn-danger.mt-3.muasp {
+        width: 127px;
+        height: 46px;
+    }
+    button.btn.btn-success.mt-3.themsp {
+        width: 150px;
+        height: 50px;
+    }
+    input.nhap {
+        width: 88%;
+        height: 38px;
+        border-radius: 7px;
+        border: 1px solid gray;
+    }
+    h3.tensp.mb-3 {
+        color: #e75a39;
+    }
+    .col-sm-4.thangiua {
+        padding-left: 46px;
+    }
+    .soluong {
+        width: 97px;
+    }
+    p.tensp {
+        font-size: 14px;
+    }
+    img.anhsp {
+        width: 100px;
+    }
+}
